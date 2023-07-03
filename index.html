@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nitya's Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header">
+      <div class="container">
+        <nav class="header_len">
+          <a href="#" class="logo"><span>N</span>itya</a>
+          <!-- <img src="assets/logo-PhotoRoom.png-PhotoRoom.png" class="logo" /> -->
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </nav>
+        <div class="header_text">
+          <p>Full Stack Web Developer</p>
+          <h1>Hi, I'm <span>Nitya Bharti</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- about-section -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/1about.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p >
+              I am a full-stack web developer, pursuing my B.Tech in Computer
+              Science & Engineering (2024) from Central University of Haryana. I
+              strive to make meaningful websites with the best UI practices and
+              I love to know about technologies and pretty much excited to learn
+              new things of modern technical world. I like exploring
+              techonologies and help the mankind to make better lives.I am
+              interested in learning how tech works. 
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                  <li><span>UI/UX:</span><br>Designing Web/App Interfaces</li>
+                  <li><span>Web Development:</span><br>Web App Development</li>
+                  <li><span>App Development:</span><br>Bulding Android/IOS Apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents " id="experience">
+                <ul>
+                  <li><span>0 year experience</span><br>Designing Web/App Interfaces</li>
+                  <li><span>Web Development:</span><br>Web App Development</li>
+                  <li><span>App Development:</span><br>Bulding Android/IOS Apps</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2020-24</span><br>B.Tech CSE</li>
+                  <li><span>Web Development:</span><br>Web App Development</li>
+                  <li><span>App Development:</span><br>Bulding Android/IOS Apps</li>
+                </ul>
+              </div>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
